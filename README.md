@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Cozy Minecraft Base Banner (Custom Animated Vector SVG) -->
-<img src="assets/minecraft-banner.svg" width="100%" alt="Dharshan's Cozy Minecraft Base" />
+<!-- Cozy Pixel Art Base Header -->
+<img src="assets/cozy_coder.gif" width="100%" alt="Dharshan's Cozy Base" />
 
 <!-- Pixel Art Press Start 2P Typing HUD -->
 <a href="https://github.com/DharshanOB">
@@ -53,12 +53,13 @@
 
 ### Hotbar // Equipped Weapons & Tools
 
-| Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 | Slot 6 | Slot 7 | Slot 8 | Slot 9 [Offhand] |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Diamond Sword** | **Enchanted Bow** | **Netherite Pick** | **Redstone Core** | **Anvil & Forge** | **Crafting Table** | **Ender Chest** | **Golden Apple** | **Totem of Undying** |
-| `Python` | `TypeScript` | `C / C++ & Rust` | `Frappe / ERPNext` | `Postgres / MariaDB` | `LLVM & AST` | `Docker & Linux` | `Kernel Tuning` | `PEPPOL / CI-CD` |
-
 <div align="center">
+
+| Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 | Slot 6 | Slot 7 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="assets/sword.gif" width="38" height="38" alt="Sword" /><br>**Diamond Sword**<br>`Python` | <img src="assets/pickaxe.gif" width="38" height="38" alt="Pickaxe" /><br>**Mining Pick**<br>`C++ / Rust / LLVM` | <img src="assets/redstone.gif" width="38" height="38" alt="Redstone" /><br>**Redstone Wire**<br>`Frappe / ERPNext` | <img src="assets/enchanting_table.gif" width="38" height="38" alt="Enchant Table" /><br>**Enchant Table**<br>`Tree-sitter / CPG` | <img src="assets/book.gif" width="38" height="38" alt="Book" /><br>**Spell Tome**<br>`TypeScript` | <img src="assets/portal.gif" width="22" height="38" alt="Portal" /><br>**Nether Portal**<br>`PEPPOL Gateway` | <img src="assets/torch.gif" width="28" height="38" alt="Torch" /><br>**Wall Torch**<br>`Docker / Linux` |
+
+<br>
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,rust,bash,postgres,mariadb,redis,docker,git,github,linux,nginx,postman&perline=8" alt="Tech Inventory" />
@@ -148,16 +149,20 @@
 
 ---
 
-### Wooden Signpost // Safe Travels
+### Campfire Rest Area // Safe Travels
 
 <div align="center">
+
+<img src="assets/fireplace.gif" width="70%" alt="Cozy Fireplace" />
+
+<br><br>
 
 ```
    ___________________________________________
   /                                           \
  |   COORDINATES: India (Survival Realm)       |
  |   COMMUNICATION: quietrays@gmail.com        |
- |   STATUS: Sitting by the cozy campfire      |
+ |   STATUS: Sitting by the cozy fire          |
  |   BUILDING: Systems, Compilers & ERP Apps   |
   \___________________________________________/
                      ||
