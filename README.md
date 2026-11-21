@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Dharshan&fontSize=42&fontAlignY=38&animation=fadeIn&desc=Systems%20%26%20Compiler%20Tooling%20%E2%80%A2%20Frappe%20%26%20ERP%20Architect%20%E2%80%A2%20AI%20Code%20Intelligence&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Dharshan&fontSize=42&fontAlignY=38&animation=fadeIn&desc=Systems%20and%20Compiler%20Tooling%20%7C%20Frappe%20and%20ERP%20Architect%20%7C%20AI%20Code%20Intelligence&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
 <!-- Typing SVG Subtitle -->
 <a href="https://github.com/DharshanOB">
