@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Dharshan%20⚡&fontSize=42&fontAlignY=38&animation=fadeIn&desc=Systems%20%26%20Compiler%20Tooling%20%E2%80%A2%20Frappe%20%26%20ERP%20Architect%20%E2%80%A2%20AI%20Code%20Intelligence&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,30&height=220&section=header&text=Hi%20there,%20I'm%20Dharshan&fontSize=42&fontAlignY=38&animation=fadeIn&desc=Systems%20%26%20Compiler%20Tooling%20%E2%80%A2%20Frappe%20%26%20ERP%20Architect%20%E2%80%A2%20AI%20Code%20Intelligence&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
 <!-- Typing SVG Subtitle -->
 <a href="https://github.com/DharshanOB">
@@ -23,14 +23,14 @@
 
 ---
 
-### 💫 About Me
+### About Me
 
 ```yaml
 developer:
   name: Dharshan
   handle: DharshanOB
   email: quietrays@gmail.com
-  location: India 🇮🇳
+  location: India
   roles:
     - Systems & Compiler Tooling Engineer
     - Enterprise Solutions Architect (Frappe / ERPNext)
@@ -42,24 +42,24 @@ developer:
   mantra: "Grounded representations over superficial diffs; resilient architectures over quick fixes."
 ```
 
-- 🛰️ **Core Project — [Astraea](https://github.com/DharshanOB/astraea):** Creator of a 4-layer code indexer, semantic graph analyzer, and AI code reviewer unifying syntax (Tree-sitter), cross-file Code Property Graphs (SCIP/CPG), compiler IR lowering (`clang`/`rustc` to LLVM SSA), and machine code disassembly (`lief`/`capstone` + DWARF metadata) for deterministic AI code reviews.
-- 🏢 **Enterprise & B2B Solutions:** Deep experience architecting customized **Frappe / ERPNext** systems, including [Peppol Access Point e-invoicing integrations](https://github.com/DharshanOB/EDocument_integration_extention), automated multi-channel sales pipelines ([Amazon Connector](https://github.com/DharshanOB/Amazon-connector)), and institutional ERP layers ([Campus](https://github.com/DharshanOB/campus)).
-- ⚡ **Low-Level & Performance:** Passionate about Linux systems optimization, compiler internals, bytecode execution engines, and micro-benchmarked workflows.
-- 🤖 **AI & Agentic Systems:** Designing structured tool-use frameworks, MCP (Model Context Protocol) integrations, and context-bounded code comprehension for LLM coding agents.
-- 💬 **Ask me about:** Python backend architecture, Frappe/ERPNext internals, Tree-sitter grammars, compiler intermediate representation, and high-throughput API design.
+- **Core Project — [Astraea](https://github.com/DharshanOB/astraea):** Creator of a 4-layer code indexer, semantic graph analyzer, and AI code reviewer unifying syntax (Tree-sitter), cross-file Code Property Graphs (SCIP/CPG), compiler IR lowering (`clang`/`rustc` to LLVM SSA), and machine code disassembly (`lief`/`capstone` + DWARF metadata) for deterministic AI code reviews.
+- **Enterprise & B2B Solutions:** Deep experience architecting customized **Frappe / ERPNext** systems, including [Peppol Access Point e-invoicing integrations](https://github.com/DharshanOB/EDocument_integration_extention), automated multi-channel sales pipelines ([Amazon Connector](https://github.com/DharshanOB/Amazon-connector)), and institutional ERP layers ([Campus](https://github.com/DharshanOB/campus)).
+- **Low-Level & Performance:** Passionate about Linux systems optimization, compiler internals, bytecode execution engines, and micro-benchmarked workflows.
+- **AI & Agentic Systems:** Designing structured tool-use frameworks, MCP (Model Context Protocol) integrations, and context-bounded code comprehension for LLM coding agents.
+- **Ask me about:** Python backend architecture, Frappe/ERPNext internals, Tree-sitter grammars, compiler intermediate representation, and high-throughput API design.
 
 ---
 
-### 🧰 Tech Arsenal & Expertise
+### Tech Arsenal & Expertise
 
 <div align="center">
 
-#### 💻 Programming Languages
+#### Programming Languages
 <p>
   <img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,rust,bash,html,css&perline=9" alt="Languages" />
 </p>
 
-#### ⚙️ Frameworks, Enterprise & Full-Stack
+#### Frameworks, Enterprise & Full-Stack
 <p>
   <img src="https://img.shields.io/badge/Frappe%20Framework-0089FF?style=for-the-badge&logo=frappe&logoColor=white" alt="Frappe" />
   <img src="https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white" alt="ERPNext" />
@@ -69,7 +69,7 @@ developer:
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
 </p>
 
-#### 🔬 Systems, Compilers & Program Analysis
+#### Systems, Compilers & Program Analysis
 <p>
   <img src="https://img.shields.io/badge/LLVM%20IR-262626?style=for-the-badge&logo=llvm&logoColor=white" alt="LLVM" />
   <img src="https://img.shields.io/badge/Tree--sitter-000000?style=for-the-badge&logo=tree-sitter&logoColor=white" alt="Tree-sitter" />
@@ -78,7 +78,7 @@ developer:
   <img src="https://img.shields.io/badge/PEPPOL%20%2F%20UBL-0A84FF?style=for-the-badge&logo=safari&logoColor=white" alt="Peppol" />
 </p>
 
-#### 🗄️ Databases, Cloud & DevOps Tooling
+#### Databases, Cloud & DevOps Tooling
 <p>
   <img src="https://skillicons.dev/icons?i=postgres,mariadb,mysql,redis,sqlite,docker,git,github,linux,nginx,postman,vscode&perline=12" alt="Tools & DBs" />
 </p>
@@ -87,19 +87,19 @@ developer:
 
 ---
 
-### 🚀 Featured Repositories
+### Featured Repositories
 
 | Repository | Focus & Domain | Highlights |
 | :--- | :--- | :--- |
-| 🛰️ **[`Astraea`](https://github.com/DharshanOB/astraea)** | **Program Analysis & AI Code Intelligence** | 4-layer code indexer combining Tree-sitter AST, SCIP/CPG call-graphs, LLVM IR lowering, and ELF/DWARF machine code alignment for grounded AI code reviews with Gemini. |
-| 📑 **[`EDocument_integration_extention`](https://github.com/DharshanOB/EDocument_integration_extention)** | **Enterprise ERP & PEPPOL Invoicing** | Belgian & European e-invoice Peppol Access Point provider integration for Frappe EDocument with compliant UBL XML schema validation and automated dispatch. |
-| 🎓 **[`campus`](https://github.com/DharshanOB/campus)** | **Higher-Education Management ERP** | Modular higher-education academic and administrative extension built on Frappe Education and ERPNext tailored for colleges and universities. |
-| 🛒 **[`Amazon-connector`](https://github.com/DharshanOB/Amazon-connector)** | **E-Commerce & Automated Sync Pipelines** | Seamless connector integrating Amazon SP-API with Frappe ERPNext for real-time inventory, sales, and order management. |
-| ⚡ **[`rewrite`](https://github.com/DharshanOB/rewrite)** | **Modern Web & TypeScript Tooling** | Modular, high-performance web tooling and application layer powered by TypeScript. |
+| **[`Astraea`](https://github.com/DharshanOB/astraea)** | **Program Analysis & AI Code Intelligence** | 4-layer code indexer combining Tree-sitter AST, SCIP/CPG call-graphs, LLVM IR lowering, and ELF/DWARF machine code alignment for grounded AI code reviews with Gemini. |
+| **[`EDocument_integration_extention`](https://github.com/DharshanOB/EDocument_integration_extention)** | **Enterprise ERP & PEPPOL Invoicing** | Belgian & European e-invoice Peppol Access Point provider integration for Frappe EDocument with compliant UBL XML schema validation and automated dispatch. |
+| **[`campus`](https://github.com/DharshanOB/campus)** | **Higher-Education Management ERP** | Modular higher-education academic and administrative extension built on Frappe Education and ERPNext tailored for colleges and universities. |
+| **[`Amazon-connector`](https://github.com/DharshanOB/Amazon-connector)** | **E-Commerce & Automated Sync Pipelines** | Seamless connector integrating Amazon SP-API with Frappe ERPNext for real-time inventory, sales, and order management. |
+| **[`rewrite`](https://github.com/DharshanOB/rewrite)** | **Modern Web & TypeScript Tooling** | Modular, high-performance web tooling and application layer powered by TypeScript. |
 
 ---
 
-### 📊 GitHub Activity & Analytics
+### GitHub Activity & Analytics
 
 <div align="center">
 
@@ -129,7 +129,7 @@ developer:
 
 ---
 
-### 🐍 Contribution Activity Snake
+### Contribution Activity Snake
 
 <div align="center">
   <picture>
@@ -141,7 +141,7 @@ developer:
 
 ---
 
-### 💭 Daily Developer Wisdom
+### Daily Developer Wisdom
 
 <div align="center">
   <a href="https://quotes-github-readme.vercel.app">
@@ -151,7 +151,7 @@ developer:
 
 ---
 
-### 🤝 Connect & Collaborate
+### Connect & Collaborate
 
 <div align="center">
 
