@@ -10,7 +10,7 @@
     <g transform="translate(48, 165)">
       <rect x="0" y="0" width="360" height="26" fill="#101010" fill-opacity="0.9" rx="3" stroke="#555555" stroke-width="1.5"/>
       <text x="14" y="17" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FFAA00">XYZ: 128 / 64 / -256  [BIOME: SYSTEMS]</text>
-      <text x="0" y="52" font-family="'Courier New', monospace" font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="1">DHARSHAN // BASE</text>
+      <text x="0" y="52" font-family="'Courier New', monospace" font-size="28" font-weight="900" fill="#FFFFFF" letter-spacing="1">DHARSHAN BASE</text>
     </g>
   </g>
 
@@ -557,7 +557,7 @@
 
   <!-- ==================== AUTHENTIC 9-SLOT HOTBAR ==================== -->
   <g transform="translate(48, 335)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#55FF55">&gt; INVENTORY // EQUIPPED HOTBAR</text>
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#55FF55">&gt; INVENTORY - EQUIPPED HOTBAR</text>
   </g>
 
   <!-- Contiguous 9-Slot Stone Hotbar Bar -->
@@ -673,7 +673,7 @@
 
   <!-- ==================== ADVANCEMENTS (SIGNATURE BUILDS) ==================== -->
   <g transform="translate(48, 520)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#55FF55">&gt; ADVANCEMENTS UNLOCKED // SIGNATURE BUILDS</text>
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#55FF55">&gt; ADVANCEMENTS UNLOCKED - SIGNATURE BUILDS</text>
   </g>
   
     <g transform="translate(48, 545)">
@@ -700,10 +700,10 @@
       <text x="90" y="26" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FFAA00" letter-spacing="0.5">ADVANCEMENT MADE! <tspan fill="#FF55FF">[ CHALLENGE COMPLETE ]</tspan></text>
 
       <!-- Build Title in Minecraft White #FFFFFF -->
-      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">Astraea // 4-Layer Code Property Graph &amp; AI Reviewer</text>
+      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">Astraea - 4-Layer Code Property Graph &amp; AI Reviewer</text>
 
       <!-- Description in Minecraft Gray #AAAAAA and Tech Tag in Minecraft Lime #55FF55 -->
-      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Syntax ASTs, cross-file CPG, LLVM SSA IR, and DWARF binary disassembly.  <tspan fill="#55FF55" font-weight="bold">// Tree-sitter . LLVM-18 . Capstone . Gemini</tspan></text>
+      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Syntax ASTs, cross-file CPG, LLVM SSA IR, and DWARF binary disassembly.  <tspan fill="#55FF55" font-weight="bold">[ Tree-sitter . LLVM-18 . Capstone . Gemini ]</tspan></text>
     </g>
     <g transform="translate(48, 640)">
       <!-- Outer Iron/Stone Beveled Plaque -->
@@ -729,10 +729,10 @@
       <text x="90" y="26" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FFAA00" letter-spacing="0.5">ADVANCEMENT MADE! <tspan fill="#55FFFF">[ GOAL REACHED ]</tspan></text>
 
       <!-- Build Title in Minecraft White #FFFFFF -->
-      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">PEPPOL EDocument // European E-Invoicing Access Point</text>
+      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">PEPPOL EDocument - European E-Invoicing Access Point</text>
 
       <!-- Description in Minecraft Gray #AAAAAA and Tech Tag in Minecraft Lime #55FF55 -->
-      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Compliant B2B electronic invoice transmission and UBL XML schema validation.  <tspan fill="#55FF55" font-weight="bold">// Frappe Framework . PEPPOL . UBL XML</tspan></text>
+      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Compliant B2B electronic invoice transmission and UBL XML schema validation.  <tspan fill="#55FF55" font-weight="bold">[ Frappe Framework . PEPPOL . UBL XML ]</tspan></text>
     </g>
     <g transform="translate(48, 735)">
       <!-- Outer Iron/Stone Beveled Plaque -->
@@ -758,10 +758,10 @@
       <text x="90" y="26" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FFAA00" letter-spacing="0.5">ADVANCEMENT MADE! <tspan fill="#55FF55">[ TASK COMPLETE ]</tspan></text>
 
       <!-- Build Title in Minecraft White #FFFFFF -->
-      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">Campus // Higher Education Institutional Management ERP</text>
+      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">Campus - Higher Education Institutional Management ERP</text>
 
       <!-- Description in Minecraft Gray #AAAAAA and Tech Tag in Minecraft Lime #55FF55 -->
-      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Complete academic, faculty, admissions, and institutional operations layer.  <tspan fill="#55FF55" font-weight="bold">// Frappe Education . ERPNext Core</tspan></text>
+      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Complete academic, faculty, admissions, and institutional operations layer.  <tspan fill="#55FF55" font-weight="bold">[ Frappe Education . ERPNext Core ]</tspan></text>
     </g>
     <g transform="translate(48, 830)">
       <!-- Outer Iron/Stone Beveled Plaque -->
@@ -787,15 +787,15 @@
       <text x="90" y="26" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FFAA00" letter-spacing="0.5">ADVANCEMENT MADE! <tspan fill="#FFFF55">[ TASK COMPLETE ]</tspan></text>
 
       <!-- Build Title in Minecraft White #FFFFFF -->
-      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">Amazon Connector // Marketplace Synchronization Engine</text>
+      <text x="90" y="47" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FFFFFF">Amazon Connector - Marketplace Synchronization Engine</text>
 
       <!-- Description in Minecraft Gray #AAAAAA and Tech Tag in Minecraft Lime #55FF55 -->
-      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Real-time SP-API order processing, catalog reconciliation, and inventory sync.  <tspan fill="#55FF55" font-weight="bold">// Amazon SP-API . Frappe Sync . Python</tspan></text>
+      <text x="90" y="68" font-family="'Courier New', monospace" font-size="12" fill="#AAAAAA">Real-time SP-API order processing, catalog reconciliation, and inventory sync.  <tspan fill="#55FF55" font-weight="bold">[ Amazon SP-API . Frappe Sync . Python ]</tspan></text>
     </g>
 
   <!-- ==================== REST AREA: ONLINE FIREPLACE & DISPATCH ==================== -->
   <g transform="translate(48, 930)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#55FF55">&gt; CAMPFIRE REST AREA // SAFE TRAVELS</text>
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#55FF55">&gt; CAMPFIRE REST AREA - SAFE TRAVELS</text>
   </g>
 
   <g transform="translate(48, 950)">
