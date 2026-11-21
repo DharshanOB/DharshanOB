@@ -1,0 +1,990 @@
+<svg width="100%" height="1130" viewBox="0 0 948 1130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c16"/>
+      <stop offset="40%" stop-color="#16152b"/>
+      <stop offset="70%" stop-color="#3b2034"/>
+      <stop offset="90%" stop-color="#693333"/>
+      <stop offset="100%" stop-color="#944d38"/>
+    </linearGradient>
+    <linearGradient id="fireGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#e63900"/>
+      <stop offset="50%" stop-color="#ff9900"/>
+      <stop offset="100%" stop-color="#ffea66"/>
+    </linearGradient>
+    <filter id="campfireGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#ffaa00" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes starPulse {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+    @keyframes flameDance {
+      0%, 100% { transform: scale(1) translateY(0); }
+      33% { transform: scale(1.06, 0.94) translateY(-1px); }
+      66% { transform: scale(0.94, 1.06) translateY(-2px); }
+    }
+    @keyframes smokePuff {
+      0% { opacity: 0.8; transform: translateY(0) translateX(0) scale(1); }
+      50% { opacity: 0.4; transform: translateY(-18px) translateX(6px) scale(1.5); }
+      100% { opacity: 0; transform: translateY(-36px) translateX(12px) scale(2.2); }
+    }
+    @keyframes windowGlow {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px #ffb300); }
+    }
+    .star { animation: starPulse 3s infinite ease-in-out; }
+    .star-f { animation: starPulse 1.8s infinite ease-in-out; }
+    .star-s { animation: starPulse 4.2s infinite ease-in-out; }
+    .flame { animation: flameDance 0.35s infinite ease-in-out; transform-origin: 785px 195px; }
+    .smoke-1 { animation: smokePuff 2.5s infinite linear; }
+    .smoke-2 { animation: smokePuff 2.5s infinite linear 0.8s; }
+    .smoke-3 { animation: smokePuff 2.5s infinite linear 1.6s; }
+    .cozy-win { animation: windowGlow 4s infinite ease-in-out; }
+  </style>
+
+  <!-- Deep Voxel Background -->
+  <rect width="948" height="1130" fill="#121318"/>
+
+  <!-- ==================== HEADER SKY & CABIN ==================== -->
+  <rect x="0" y="0" width="948" height="270" fill="url(#skyGrad)"/>
+
+  <!-- Pixel Moon -->
+  <g transform="translate(85, 30)">
+    <rect x="0" y="0" width="36" height="36" fill="#fffbe8"/>
+    <rect x="3" y="3" width="30" height="30" fill="#fffdf2"/>
+    <rect x="7" y="7" width="8" height="8" fill="#ded7ba"/>
+    <rect x="20" y="12" width="10" height="8" fill="#ded7ba"/>
+    <rect x="12" y="22" width="12" height="8" fill="#ded7ba"/>
+  </g>
+
+  <!-- Twinkling Pixel Stars -->
+  <rect class="star" x="40" y="55" width="4" height="4" fill="#ffffff"/>
+  <rect class="star-f" x="160" y="40" width="3" height="3" fill="#ffeaa7"/>
+  <rect class="star-s" x="250" y="65" width="4" height="4" fill="#ffffff"/>
+  <rect class="star" x="350" y="35" width="3" height="3" fill="#ffffff"/>
+  <rect class="star-f" x="460" y="50" width="4" height="4" fill="#ffeaa7"/>
+  <rect class="star-s" x="570" y="38" width="3" height="3" fill="#ffffff"/>
+  <rect class="star" x="680" y="45" width="4" height="4" fill="#ffffff"/>
+  <rect class="star-f" x="780" y="30" width="3" height="3" fill="#ffeaa7"/>
+  <rect class="star-s" x="890" y="55" width="4" height="4" fill="#ffffff"/>
+
+  <!-- Pine Mountains Silhouette -->
+  <path d="M 0 200 L 70 170 L 140 200 L 220 165 L 310 200 L 420 160 L 530 200 L 640 168 L 750 200 L 850 172 L 948 195 L 948 270 L 0 270 Z" fill="#131b26"/>
+
+  <!-- Midground Pine Trees -->
+  <g fill="#1a2e24">
+    <polygon points="50,205 40,185 60,185"/>
+    <polygon points="50,188 43,172 57,172"/>
+    <polygon points="50,174 46,162 54,162"/>
+    <rect x="48" y="205" width="4" height="8" fill="#2d1c13"/>
+
+    <polygon points="150,208 138,186 162,186"/>
+    <polygon points="150,190 142,174 158,174"/>
+    <rect x="148" y="208" width="4" height="8" fill="#2d1c13"/>
+
+    <polygon points="680,206 668,185 692,185"/>
+    <polygon points="680,188 672,172 688,172"/>
+    <rect x="678" y="206" width="4" height="8" fill="#2d1c13"/>
+  </g>
+
+  <!-- Grass Layer Surface -->
+  <rect x="0" y="212" width="948" height="14" fill="#5b8e31"/>
+  <rect x="0" y="212" width="948" height="4" fill="#75b340"/>
+  <!-- Grass Drips -->
+  <g fill="#5b8e31">
+    <rect x="25" y="226" width="8" height="6"/>
+    <rect x="75" y="226" width="8" height="8"/>
+    <rect x="140" y="226" width="8" height="5"/>
+    <rect x="220" y="226" width="8" height="7"/>
+    <rect x="310" y="226" width="8" height="5"/>
+    <rect x="420" y="226" width="8" height="8"/>
+    <rect x="540" y="226" width="8" height="6"/>
+    <rect x="650" y="226" width="8" height="7"/>
+    <rect x="760" y="226" width="8" height="5"/>
+    <rect x="860" y="226" width="8" height="8"/>
+  </g>
+  <!-- Dirt Base Under Header -->
+  <rect x="0" y="226" width="948" height="44" fill="#866043"/>
+
+  <!-- Cozy Wooden Cabin (Top Right) -->
+  <g transform="translate(835, 135)">
+    <!-- Chimney Cobblestone -->
+    <rect x="52" y="0" width="16" height="34" fill="#525252"/>
+    <rect x="50" y="-3" width="20" height="4" fill="#383838"/>
+    <!-- Chimney Smoke -->
+    <g transform="translate(56, -4)">
+      <rect class="smoke-1" x="0" y="0" width="6" height="6" fill="#a0a0a0"/>
+      <rect class="smoke-2" x="0" y="0" width="6" height="6" fill="#b8b8b8"/>
+      <rect class="smoke-3" x="0" y="0" width="6" height="6" fill="#d0d0d0"/>
+    </g>
+    <!-- Roof -->
+    <polygon points="40,15 -8,50 88,50" fill="#3b2615"/>
+    <!-- Plank Walls -->
+    <rect x="0" y="50" width="80" height="30" fill="#6a492d"/>
+    <line x1="0" y1="60" x2="80" y2="60" stroke="#48311e" stroke-width="1.5"/>
+    <line x1="0" y1="70" x2="80" y2="70" stroke="#48311e" stroke-width="1.5"/>
+    <!-- Glowing Window -->
+    <g class="cozy-win">
+      <rect x="14" y="54" width="20" height="16" fill="#ffa726"/>
+      <rect x="16" y="56" width="16" height="12" fill="#ffe082"/>
+      <line x1="24" y1="54" x2="24" y2="70" stroke="#48311e" stroke-width="2"/>
+      <line x1="14" y1="62" x2="34" y2="62" stroke="#48311e" stroke-width="2"/>
+    </g>
+    <!-- Door -->
+    <rect x="48" y="54" width="18" height="26" fill="#4a3118"/>
+    <rect x="60" y="66" width="2" height="3" fill="#d4af37"/>
+  </g>
+
+  <!-- Campfire Beside Cabin -->
+  <g transform="translate(755, 198)">
+    <rect x="6" y="10" width="26" height="5" rx="1" fill="#382110" transform="rotate(-18 19 12)"/>
+    <rect x="6" y="10" width="26" height="5" rx="1" fill="#382110" transform="rotate(18 19 12)"/>
+    <rect x="13" y="8" width="14" height="4" fill="#d83a17"/>
+    <!-- Animated Flame -->
+    <g class="flame" filter="url(#campfireGlow)">
+      <polygon points="20,-6 14,8 26,8" fill="url(#fireGrad)"/>
+      <polygon points="20,0 16,8 24,8" fill="#ffea88"/>
+    </g>
+    <!-- Embers -->
+    <rect class="smoke-1" x="18" y="-8" width="3" height="3" fill="#ffaa00"/>
+    <rect class="smoke-2" x="22" y="-16" width="2" height="2" fill="#ffdd44"/>
+  </g>
+
+  <!-- Header Monospace Typography -->
+  <g transform="translate(48, 85)">
+    <!-- Biome Badge -->
+    <rect x="0" y="0" width="330" height="26" fill="#0c1017" fill-opacity="0.85" rx="3" stroke="#374151" stroke-width="1.5"/>
+    <text x="14" y="18" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#e8a848">XYZ: 128 / 64 / -256  [BIOME: SYSTEMS]</text>
+    <!-- Title -->
+    <text x="0" y="64" font-family="'Courier New', monospace" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="2">DHARSHAN // BASE</text>
+    <!-- Subtitle -->
+    <text x="0" y="94" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#7bf720">&gt; LEVEL 99 SYSTEMS ARCHITECT // HARDCORE SURVIVAL</text>
+    <text x="0" y="115" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#ffffff">COMPILER IR . AST ANALYSIS . FRAPPE &amp; ERPNEXT ARCHITECTURE</text>
+  </g>
+
+  <!-- ==================== HUD STATUS BAR ==================== -->
+  <g transform="translate(48, 295)">
+    <!-- Stone Frame -->
+    <rect x="0" y="0" width="852" height="98" fill="#1b1c20" stroke="#3e4451" stroke-width="2" rx="4"/>
+    <!-- Avatar Head -->
+    <g transform="translate(18, 16)">
+      <rect x="0" y="0" width="66" height="66" fill="#111" stroke="#444" stroke-width="2"/>
+      <rect x="8" y="8" width="50" height="50" fill="#c68642"/>
+      <rect x="8" y="8" width="50" height="15" fill="#2d170b"/>
+      <rect x="8" y="23" width="10" height="8" fill="#2d170b"/>
+      <rect x="48" y="23" width="10" height="8" fill="#2d170b"/>
+      <rect x="18" y="27" width="8" height="5" fill="#ffffff"/>
+      <rect x="22" y="27" width="4" height="5" fill="#2b52a6"/>
+      <rect x="38" y="27" width="8" height="5" fill="#ffffff"/>
+      <rect x="38" y="27" width="4" height="5" fill="#2b52a6"/>
+      <rect x="24" y="42" width="16" height="6" fill="#4a2a16"/>
+    </g>
+    <!-- Player Stats Text -->
+    <g transform="translate(98, 28)">
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#ffffff">PLAYER: DharshanOB</text>
+      <text x="0" y="16" font-family="'Courier New', monospace" font-size="11" fill="#aaaaaa">GAMEMODE: Hardcore Survival</text>
+      <text x="0" y="32" font-family="'Courier New', monospace" font-size="11" fill="#e8a848">CLASS: Systems &amp; ERP Architect</text>
+    </g>
+    <!-- Hearts, Armor, Food -->
+    
+    <g transform="translate(195, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(211, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(227, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(243, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(259, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(275, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(291, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(307, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(323, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    <g transform="translate(339, 318)">
+      <rect x="1" y="0" width="3" height="1" fill="#000"/>
+      <rect x="5" y="0" width="3" height="1" fill="#000"/>
+      <rect x="0" y="1" width="1" height="3" fill="#000"/>
+      <rect x="4" y="1" width="1" height="2" fill="#000"/>
+      <rect x="8" y="1" width="1" height="3" fill="#000"/>
+      <rect x="0" y="4" width="1" height="1" fill="#000"/>
+      <rect x="8" y="4" width="1" height="1" fill="#000"/>
+      <rect x="1" y="5" width="1" height="1" fill="#000"/>
+      <rect x="7" y="5" width="1" height="1" fill="#000"/>
+      <rect x="2" y="6" width="1" height="1" fill="#000"/>
+      <rect x="6" y="6" width="1" height="1" fill="#000"/>
+      <rect x="3" y="7" width="1" height="1" fill="#000"/>
+      <rect x="5" y="7" width="1" height="1" fill="#000"/>
+      <rect x="4" y="8" width="1" height="1" fill="#000"/>
+      <rect x="1" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="5" y="1" width="3" height="3" fill="#e61919"/>
+      <rect x="1" y="4" width="7" height="1" fill="#e61919"/>
+      <rect x="2" y="5" width="5" height="1" fill="#e61919"/>
+      <rect x="3" y="6" width="3" height="1" fill="#e61919"/>
+      <rect x="4" y="7" width="1" height="1" fill="#e61919"/>
+      <rect x="2" y="1" width="1" height="1" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(195, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(211, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(227, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(243, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(259, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(275, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(291, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(307, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(323, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    <g transform="translate(339, 334)">
+      <rect x="1" y="0" width="7" height="1" fill="#111"/>
+      <rect x="0" y="1" width="1" height="5" fill="#111"/>
+      <rect x="8" y="1" width="1" height="5" fill="#111"/>
+      <rect x="1" y="6" width="1" height="1" fill="#111"/>
+      <rect x="7" y="6" width="1" height="1" fill="#111"/>
+      <rect x="2" y="7" width="2" height="1" fill="#111"/>
+      <rect x="5" y="7" width="2" height="1" fill="#111"/>
+      <rect x="4" y="8" width="1" height="1" fill="#111"/>
+      <rect x="1" y="1" width="7" height="5" fill="#999999"/>
+      <rect x="2" y="6" width="5" height="1" fill="#999999"/>
+      <rect x="3" y="7" width="3" height="1" fill="#999999"/>
+      <rect x="2" y="1" width="1" height="2" fill="#dddddd"/>
+    </g>
+    
+    <g transform="translate(595, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(611, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(627, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(643, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(659, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(675, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(691, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(707, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(723, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <g transform="translate(739, 318)">
+      <rect x="3" y="0" width="4" height="1" fill="#111"/>
+      <rect x="2" y="1" width="1" height="3" fill="#111"/>
+      <rect x="7" y="1" width="1" height="3" fill="#111"/>
+      <rect x="1" y="4" width="2" height="1" fill="#111"/>
+      <rect x="6" y="4" width="2" height="1" fill="#111"/>
+      <rect x="0" y="5" width="2" height="2" fill="#111"/>
+      <rect x="3" y="1" width="4" height="3" fill="#bd6a2b"/>
+      <rect x="2" y="4" width="5" height="2" fill="#bd6a2b"/>
+      <rect x="1" y="6" width="2" height="2" fill="#e8d5b5"/>
+      <rect x="4" y="2" width="1" height="1" fill="#d9894e"/>
+    </g>
+    <!-- XP Bar Base -->
+    <g transform="translate(195, 356)">
+      <rect x="0" y="0" width="550" height="8" fill="#000000"/>
+      <rect x="1" y="1" width="548" height="6" fill="#2b4712"/>
+      <rect x="195" y="356" width="10" height="6" fill="#7bf720"/><rect x="206" y="356" width="10" height="6" fill="#7bf720"/><rect x="217" y="356" width="10" height="6" fill="#7bf720"/><rect x="228" y="356" width="10" height="6" fill="#7bf720"/><rect x="239" y="356" width="10" height="6" fill="#7bf720"/><rect x="250" y="356" width="10" height="6" fill="#7bf720"/><rect x="261" y="356" width="10" height="6" fill="#7bf720"/><rect x="272" y="356" width="10" height="6" fill="#7bf720"/><rect x="283" y="356" width="10" height="6" fill="#7bf720"/><rect x="294" y="356" width="10" height="6" fill="#7bf720"/><rect x="305" y="356" width="10" height="6" fill="#7bf720"/><rect x="316" y="356" width="10" height="6" fill="#7bf720"/><rect x="327" y="356" width="10" height="6" fill="#7bf720"/><rect x="338" y="356" width="10" height="6" fill="#7bf720"/><rect x="349" y="356" width="10" height="6" fill="#7bf720"/><rect x="360" y="356" width="10" height="6" fill="#7bf720"/><rect x="371" y="356" width="10" height="6" fill="#7bf720"/><rect x="382" y="356" width="10" height="6" fill="#7bf720"/><rect x="393" y="356" width="10" height="6" fill="#7bf720"/><rect x="404" y="356" width="10" height="6" fill="#7bf720"/><rect x="415" y="356" width="10" height="6" fill="#7bf720"/><rect x="426" y="356" width="10" height="6" fill="#7bf720"/><rect x="437" y="356" width="10" height="6" fill="#7bf720"/><rect x="448" y="356" width="10" height="6" fill="#7bf720"/><rect x="459" y="356" width="10" height="6" fill="#7bf720"/><rect x="470" y="356" width="10" height="6" fill="#7bf720"/><rect x="481" y="356" width="10" height="6" fill="#7bf720"/><rect x="492" y="356" width="10" height="6" fill="#7bf720"/><rect x="503" y="356" width="10" height="6" fill="#7bf720"/><rect x="514" y="356" width="10" height="6" fill="#7bf720"/><rect x="525" y="356" width="10" height="6" fill="#7bf720"/><rect x="536" y="356" width="10" height="6" fill="#7bf720"/><rect x="547" y="356" width="10" height="6" fill="#7bf720"/><rect x="558" y="356" width="10" height="6" fill="#7bf720"/><rect x="569" y="356" width="10" height="6" fill="#7bf720"/><rect x="580" y="356" width="10" height="6" fill="#7bf720"/><rect x="591" y="356" width="10" height="6" fill="#7bf720"/><rect x="602" y="356" width="10" height="6" fill="#7bf720"/><rect x="613" y="356" width="10" height="6" fill="#7bf720"/><rect x="624" y="356" width="10" height="6" fill="#7bf720"/><rect x="635" y="356" width="10" height="6" fill="#7bf720"/><rect x="646" y="356" width="10" height="6" fill="#7bf720"/><rect x="657" y="356" width="10" height="6" fill="#7bf720"/><rect x="668" y="356" width="10" height="6" fill="#7bf720"/><rect x="679" y="356" width="10" height="6" fill="#7bf720"/><rect x="690" y="356" width="10" height="6" fill="#7bf720"/><rect x="701" y="356" width="10" height="6" fill="#7bf720"/><rect x="712" y="356" width="10" height="6" fill="#7bf720"/><rect x="723" y="356" width="10" height="6" fill="#7bf720"/><rect x="734" y="356" width="10" height="6" fill="#7bf720"/>
+    </g>
+    <!-- XP Level 99 -->
+    <g transform="translate(470, 353)">
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#000000" text-anchor="middle" stroke="#000" stroke-width="4">99</text>
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="18" font-weight="900" fill="#7bf720" text-anchor="middle">99</text>
+    </g>
+    <!-- Spawn / Origin -->
+    <g transform="translate(760, 28)">
+      <text x="0" y="0" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#7bf720">ACTIVE BUFF:</text>
+      <text x="0" y="16" font-family="'Courier New', monospace" font-size="11" fill="#ffffff">AST Slicing V</text>
+      <text x="0" y="32" font-family="'Courier New', monospace" font-size="11" fill="#88c0d0">SPAWN: India</text>
+    </g>
+  </g>
+
+  <!-- ==================== HOTBAR SECTION ==================== -->
+  <g transform="translate(48, 412)">
+    <!-- Header -->
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#7bf720">&gt; HOTBAR // EQUIPPED TECH &amp; ARSENAL</text>
+  </g>
+  
+    <g transform="translate(48, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-8, -4)">
+  <rect x="24" y="0" width="6" height="6" fill="#4dedf4"/>
+  <rect x="18" y="6" width="8" height="8" fill="#4dedf4"/>
+  <rect x="12" y="12" width="8" height="8" fill="#2eaec2"/>
+  <rect x="8" y="16" width="6" height="6" fill="#2eaec2"/>
+  <rect x="4" y="20" width="6" height="6" fill="#1c7280"/>
+  <!-- Crossguard -->
+  <rect x="2" y="26" width="14" height="4" fill="#4a2e18"/>
+  <rect x="8" y="22" width="4" height="12" fill="#4a2e18"/>
+  <!-- Hilt -->
+  <rect x="0" y="30" width="6" height="6" fill="#d4af37"/>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Diamond Sword</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">Python</text>
+    </g>
+    <g transform="translate(172, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-10, -4)">
+  <!-- Pick Head -->
+  <path d="M 8 0 L 32 0 L 34 8 L 26 12 L 18 10 L 8 4 Z" fill="#4dedf4"/>
+  <rect x="12" y="2" width="14" height="4" fill="#a5f8fc"/>
+  <!-- Handle -->
+  <line x1="20" y1="8" x2="2" y2="34" stroke="#52361b" stroke-width="4"/>
+  <rect x="0" y="32" width="5" height="5" fill="#d4af37"/>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Mining Pick</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">C++ / LLVM</text>
+    </g>
+    <g transform="translate(296, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-6, 2)">
+  <rect x="8" y="4" width="14" height="14" fill="#e61919"/>
+  <rect x="6" y="8" width="18" height="6" fill="#ff3333"/>
+  <rect x="10" y="2" width="10" height="18" fill="#b30000"/>
+  <rect x="12" y="8" width="4" height="4" fill="#ffffff"/>
+  <!-- Sparks -->
+  <rect x="2" y="2" width="3" height="3" fill="#ff6666"/>
+  <rect x="22" y="18" width="3" height="3" fill="#ff6666"/>
+  <rect x="24" y="4" width="2" height="2" fill="#ff8888"/>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Redstone</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">ERPNext</text>
+    </g>
+    <g transform="translate(420, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-10, 0)">
+  <!-- Obsidian Base -->
+  <rect x="2" y="14" width="28" height="14" fill="#1b1226"/>
+  <rect x="4" y="16" width="24" height="4" fill="#3b2454"/>
+  <rect x="0" y="24" width="32" height="4" fill="#8c1d40"/>
+  <!-- Floating Book -->
+  <g transform="translate(6, 0)">
+    <polygon points="10,0 2,6 18,6" fill="#8b0000"/>
+    <polygon points="10,0 18,6 10,12" fill="#bd2b2b"/>
+    <rect x="8" y="2" width="4" height="8" fill="#fffbe8"/>
+  </g>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Enchanting</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">AST / CPG</text>
+    </g>
+    <g transform="translate(544, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-8, 2)">
+  <!-- Book Cover -->
+  <rect x="2" y="2" width="24" height="28" rx="2" fill="#5c1d6b"/>
+  <!-- Gold Corners -->
+  <rect x="2" y="2" width="4" height="4" fill="#ffaa00"/>
+  <rect x="22" y="2" width="4" height="4" fill="#ffaa00"/>
+  <rect x="2" y="26" width="4" height="4" fill="#ffaa00"/>
+  <rect x="22" y="26" width="4" height="4" fill="#ffaa00"/>
+  <!-- Ribbon / Pages -->
+  <rect x="24" y="4" width="3" height="24" fill="#fffbe8"/>
+  <rect x="10" y="8" width="8" height="8" fill="#d4af37"/>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Spell Tome</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">TypeScript</text>
+    </g>
+    <g transform="translate(668, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-8, -2)">
+  <!-- Obsidian Frame -->
+  <rect x="2" y="0" width="24" height="34" fill="#181124"/>
+  <rect x="6" y="4" width="16" height="26" fill="#6a0dad"/>
+  <!-- Swirl Particles -->
+  <rect x="8" y="8" width="6" height="6" fill="#b76cf0"/>
+  <rect x="12" y="18" width="8" height="8" fill="#9b42db"/>
+  <rect x="10" y="12" width="4" height="4" fill="#ffffff"/>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Nether Gate</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">PEPPOL</text>
+    </g>
+    <g transform="translate(792, 420)">
+      <!-- Outer Bevel (Classic Minecraft Slot) -->
+      <rect x="0" y="0" width="108" height="108" fill="#8f8f8f"/>
+      <rect x="2" y="2" width="104" height="104" fill="#373737"/>
+      <rect x="4" y="4" width="100" height="100" fill="#1a1a1a"/>
+      <!-- Icon Container -->
+      <g transform="translate(36, 14)">
+        
+<g transform="translate(-4, -2)">
+  <!-- Wooden Stick -->
+  <rect x="8" y="12" width="6" height="22" fill="#5a381d"/>
+  <rect x="10" y="14" width="2" height="18" fill="#7a4e28"/>
+  <!-- Coal Head -->
+  <rect x="7" y="7" width="8" height="6" fill="#222222"/>
+  <!-- Flame -->
+  <polygon points="11,0 6,8 16,8" fill="#ff9900"/>
+  <polygon points="11,2 8,8 14,8" fill="#ffea66"/>
+</g>
+      </g>
+      <!-- Item Label -->
+      <text x="54" y="78" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">Wall Torch</text>
+      <!-- Tech Badge -->
+      <text x="54" y="94" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#7bf720" text-anchor="middle">Linux / DevOps</text>
+    </g>
+
+  <!-- ==================== QUEST LOG / BUILDS ==================== -->
+  <g transform="translate(48, 560)">
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#7bf720">&gt; QUEST LOG // SIGNATURE BUILDS</text>
+  </g>
+  
+    <g transform="translate(48, 580)">
+      <!-- Card Slate -->
+      <rect x="0" y="0" width="852" height="74" fill="#181b20" stroke="#373e48" stroke-width="2" rx="4"/>
+      <rect x="0" y="0" width="6" height="74" fill="#d946ef" rx="2"/>
+      <!-- Header -->
+      <text x="24" y="25" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#ffffff">ASTRAEA // CODE PROPERTY GRAPH ANALYZER</text>
+      <!-- Rarity Pill -->
+      <g transform="translate(730, 10)">
+        <rect x="0" y="0" width="105" height="20" fill="#d946ef" fill-opacity="0.2" stroke="#d946ef" stroke-width="1.5" rx="3"/>
+        <text x="52" y="14" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#d946ef" text-anchor="middle">MYTHIC BUILD</text>
+      </g>
+      <!-- Description -->
+      <text x="24" y="45" font-family="'Courier New', monospace" font-size="12" fill="#d1d5db">4-layer code indexer &amp; AI reviewer unifying ASTs, cross-file CPG, LLVM SSA IR, and DWARF assembly.</text>
+      <!-- Meta -->
+      <text x="24" y="63" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#7bf720">Tree-sitter | SCIP | LLVM-18 | Capstone | Gemini API</text>
+    </g>
+    <g transform="translate(48, 668)">
+      <!-- Card Slate -->
+      <rect x="0" y="0" width="852" height="74" fill="#181b20" stroke="#373e48" stroke-width="2" rx="4"/>
+      <rect x="0" y="0" width="6" height="74" fill="#38bdf8" rx="2"/>
+      <!-- Header -->
+      <text x="24" y="25" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#ffffff">PEPPOL EDOCUMENT // ACCESS POINT INTEGRATION</text>
+      <!-- Rarity Pill -->
+      <g transform="translate(730, 10)">
+        <rect x="0" y="0" width="105" height="20" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.5" rx="3"/>
+        <text x="52" y="14" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#38bdf8" text-anchor="middle">RARE BUILD</text>
+      </g>
+      <!-- Description -->
+      <text x="24" y="45" font-family="'Courier New', monospace" font-size="12" fill="#d1d5db">European compliant B2B electronic invoicing access point integration for Frappe EDocument.</text>
+      <!-- Meta -->
+      <text x="24" y="63" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#7bf720">Frappe Framework | PEPPOL Network | UBL XML Schema Validation</text>
+    </g>
+    <g transform="translate(48, 756)">
+      <!-- Card Slate -->
+      <rect x="0" y="0" width="852" height="74" fill="#181b20" stroke="#373e48" stroke-width="2" rx="4"/>
+      <rect x="0" y="0" width="6" height="74" fill="#4ade80" rx="2"/>
+      <!-- Header -->
+      <text x="24" y="25" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#ffffff">CAMPUS // HIGHER EDUCATION ERP</text>
+      <!-- Rarity Pill -->
+      <g transform="translate(730, 10)">
+        <rect x="0" y="0" width="105" height="20" fill="#4ade80" fill-opacity="0.2" stroke="#4ade80" stroke-width="1.5" rx="3"/>
+        <text x="52" y="14" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#4ade80" text-anchor="middle">UNCOMMON BUILD</text>
+      </g>
+      <!-- Description -->
+      <text x="24" y="45" font-family="'Courier New', monospace" font-size="12" fill="#d1d5db">Academic, administration, and faculty operating layer engineered for colleges and universities.</text>
+      <!-- Meta -->
+      <text x="24" y="63" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#7bf720">Frappe Education | ERPNext Core | Multi-College Architecture</text>
+    </g>
+    <g transform="translate(48, 844)">
+      <!-- Card Slate -->
+      <rect x="0" y="0" width="852" height="74" fill="#181b20" stroke="#373e48" stroke-width="2" rx="4"/>
+      <rect x="0" y="0" width="6" height="74" fill="#fbbf24" rx="2"/>
+      <!-- Header -->
+      <text x="24" y="25" font-family="'Courier New', monospace" font-size="15" font-weight="bold" fill="#ffffff">AMAZON CONNECTOR // MARKETPLACE AUTOMATION</text>
+      <!-- Rarity Pill -->
+      <g transform="translate(730, 10)">
+        <rect x="0" y="0" width="105" height="20" fill="#fbbf24" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1.5" rx="3"/>
+        <text x="52" y="14" font-family="'Courier New', monospace" font-size="10" font-weight="bold" fill="#fbbf24" text-anchor="middle">UNCOMMON BUILD</text>
+      </g>
+      <!-- Description -->
+      <text x="24" y="45" font-family="'Courier New', monospace" font-size="12" fill="#d1d5db">Real-time SP-API order, inventory, catalog, and fulfillment synchronization pipeline.</text>
+      <!-- Meta -->
+      <text x="24" y="63" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#7bf720">Amazon SP-API | Frappe Sync Engine | High-Throughput Python</text>
+    </g>
+
+  <!-- ==================== FOOTER CAMPFIRE & SIGN ==================== -->
+  <!-- Dirt & Stone Foundation -->
+  <rect x="0" y="930" width="948" height="200" fill="#14161c"/>
+  <rect x="0" y="930" width="948" height="6" fill="#2d333b"/>
+
+  <!-- Wooden Signpost Dispatch -->
+  <g transform="translate(254, 955)">
+    <!-- Sign Board -->
+    <rect x="0" y="0" width="440" height="96" fill="#4a3118" stroke="#2b1a0b" stroke-width="3" rx="4"/>
+    <!-- Inner Carving -->
+    <rect x="6" y="6" width="428" height="84" fill="#583b1e"/>
+    <!-- Sign Text -->
+    <text x="220" y="32" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#ffdd99" text-anchor="middle">COORDINATES: India (Survival Base)</text>
+    <text x="220" y="52" font-family="'Courier New', monospace" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">DISPATCH: quietrays@gmail.com</text>
+    <text x="220" y="72" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#7bf720" text-anchor="middle">github.com/DharshanOB</text>
+    <!-- Wooden Pole -->
+    <rect x="206" y="96" width="28" height="45" fill="#3b2410"/>
+  </g>
+
+  <!-- Left Wall Lantern -->
+  <g transform="translate(180, 970)">
+    <rect x="0" y="0" width="6" height="30" fill="#52361b"/>
+    <rect x="0" y="0" width="16" height="4" fill="#52361b"/>
+    <rect x="10" y="4" width="12" height="16" fill="#222"/>
+    <rect x="12" y="6" width="8" height="10" fill="#ffb703" filter="url(#campfireGlow)"/>
+  </g>
+
+  <!-- Right Wall Lantern -->
+  <g transform="translate(740, 970)">
+    <rect x="0" y="0" width="6" height="30" fill="#52361b"/>
+    <rect x="-10" y="0" width="16" height="4" fill="#52361b"/>
+    <rect x="-16" y="4" width="12" height="16" fill="#222"/>
+    <rect x="-14" y="6" width="8" height="10" fill="#ffb703" filter="url(#campfireGlow)"/>
+  </g>
+
+  <!-- Subtle Bottom Tagline -->
+  <text x="474" y="1115" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#4b5563" text-anchor="middle">Crafted block by block at the compiler metal • DharshanOB</text>
+</svg>
