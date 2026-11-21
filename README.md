@@ -5,109 +5,53 @@
 
 <!-- Pixel Art Press Start 2P Typing HUD -->
 <a href="https://github.com/DharshanOB">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=2500&pause=1000&color=55FF55&center=true&vCenter=true&width=750&height=45&lines=LEVEL+99+SYSTEMS+ARCHITECT;MINING+COMPILERS+%2B+BYTECODE;CRAFTING+FRAPPE+%26+ERPNEXT+APPS;CREATOR+OF+ASTRAEA+(AST+%2B+CPG);BUILDING+ROBUST+SYSTEMS+BLOCK+BY+BLOCK" alt="Pixel Typing HUD" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=2500&pause=1000&color=55FF55&center=true&vCenter=true&width=720&height=42&lines=DHARSHANOB+//+LEVEL+99+ARCHITECT;MINING+COMPILERS+%2B+BYTECODE;CRAFTING+FRAPPE+%26+ERPNEXT+APPS;CREATOR+OF+ASTRAEA" alt="Pixel Typing HUD" />
 </a>
 
 <!-- Minecraft Status Bar: Hearts, Armor, Food & XP Level 99 -->
 <img src="assets/minecraft-status.svg" width="100%" alt="Minecraft HUD Status" />
 
-<br>
-
-<!-- Cozy World Telemetry Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/GAMEMODE-HARDCORE%20SURVIVAL-3b2716?style=for-the-badge&logo=minecraft&logoColor=55ff55" alt="Gamemode" />
-  <img src="https://img.shields.io/badge/BIOME-SYSTEMS%20%26%20COMPILERS-2d4a22?style=for-the-badge&logoColor=white" alt="Biome" />
-  <img src="https://img.shields.io/badge/DIFFICULTY-PEACEFUL%20BASE%20%2F%20HARDCORE%20CODE-862d2d?style=for-the-badge&logoColor=white" alt="Difficulty" />
-  <img src="https://komarev.com/ghpvc/?username=DharshanOB&label=WORLD+VISITS&color=5b8731&style=for-the-badge" alt="World Visits" />
-</p>
-
 </div>
 
 ---
 
-### Character Data // Player Log
-
-```yaml
-[PLAYER_PROFILE]
-  Player: DharshanOB
-  Spawn_Point: India
-  Current_Biome: Deep Systems & Compilers
-  Level: 99
-  Enchantments:
-    - Resilient Architecture IV
-    - Deep Program Comprehension V
-    - High-Throughput Optimization III
-  Active_Buffs:
-    - Speed II (FastAPI & Microservices)
-    - Strength III (LLVM IR Lowering & AST Slicing)
-    - Haste IV (Automated Frappe Workflows)
-  Guild_Mantra: "Grounded representations over superficial diffs; resilient architectures over quick fixes."
-```
-
-- **Flagship Build — [Astraea](https://github.com/DharshanOB/astraea):** Creator of a 4-layer code indexer, semantic graph analyzer, and AI code reviewer uniting syntax (Tree-sitter), cross-file Code Property Graphs (SCIP/CPG), compiler IR lowering (clang/rustc to LLVM SSA), and machine-code disassembly (lief/capstone + DWARF metadata).
-- **Enterprise Redstone Architecture:** Deep experience building resilient **Frappe / ERPNext** systems, including [Peppol Access Point e-invoicing integrations](https://github.com/DharshanOB/EDocument_integration_extention), automated multi-channel seller pipelines ([Amazon Connector](https://github.com/DharshanOB/Amazon-connector)), and institutional ERP layers ([Campus](https://github.com/DharshanOB/campus)).
-- **Low-Level Mining & Performance:** Linux kernel tuning, compiler intermediate representation analysis, bytecode execution inspection, and zero-waste memory optimization.
-- **AI Agent Automation:** Engineering bounded tool-use pipelines, MCP (Model Context Protocol) servers, and context-aware coding assistants.
-
----
-
-### Hotbar // Equipped Weapons & Tools
+### Inventory // Equipped Gear
 
 <div align="center">
 
-| Slot 1 | Slot 2 | Slot 3 | Slot 4 | Slot 5 | Slot 6 | Slot 7 |
+| <img src="assets/sword.gif" width="34" height="34" alt="Sword" /><br>**Python** | <img src="assets/pickaxe.gif" width="34" height="34" alt="Pickaxe" /><br>**C++ / LLVM** | <img src="assets/redstone.gif" width="34" height="34" alt="Redstone" /><br>**ERPNext** | <img src="assets/enchanting_table.gif" width="34" height="34" alt="Table" /><br>**AST / CPG** | <img src="assets/book.gif" width="34" height="34" alt="Book" /><br>**TypeScript** | <img src="assets/portal.gif" width="20" height="34" alt="Portal" /><br>**PEPPOL** | <img src="assets/torch.gif" width="26" height="34" alt="Torch" /><br>**Linux** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="assets/sword.gif" width="38" height="38" alt="Sword" /><br>**Diamond Sword**<br>`Python` | <img src="assets/pickaxe.gif" width="38" height="38" alt="Pickaxe" /><br>**Mining Pick**<br>`C++ / Rust / LLVM` | <img src="assets/redstone.gif" width="38" height="38" alt="Redstone" /><br>**Redstone Wire**<br>`Frappe / ERPNext` | <img src="assets/enchanting_table.gif" width="38" height="38" alt="Enchant Table" /><br>**Enchant Table**<br>`Tree-sitter / CPG` | <img src="assets/book.gif" width="38" height="38" alt="Book" /><br>**Spell Tome**<br>`TypeScript` | <img src="assets/portal.gif" width="22" height="38" alt="Portal" /><br>**Nether Portal**<br>`PEPPOL Gateway` | <img src="assets/torch.gif" width="28" height="38" alt="Torch" /><br>**Wall Torch**<br>`Docker / Linux` |
-
-<br>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,rust,bash,postgres,mariadb,redis,docker,git,github,linux,nginx,postman&perline=8" alt="Tech Inventory" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Frappe%20Framework-0089FF?style=for-the-badge&logo=frappe&logoColor=white" alt="Frappe" />
-  <img src="https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white" alt="ERPNext" />
-  <img src="https://img.shields.io/badge/LLVM%20IR-262626?style=for-the-badge&logo=llvm&logoColor=white" alt="LLVM" />
-  <img src="https://img.shields.io/badge/Tree--sitter-000000?style=for-the-badge&logo=tree-sitter&logoColor=white" alt="Tree-sitter" />
-  <img src="https://img.shields.io/badge/PEPPOL%20%2F%20UBL-0A84FF?style=for-the-badge&logo=safari&logoColor=white" alt="Peppol" />
-</p>
 
 </div>
 
 ---
 
-### Crafting Table // Signature Builds
-
-| Recipe | Ingredients | Crafted Output & Highlights |
-| :--- | :--- | :--- |
-| **[`Astraea`](https://github.com/DharshanOB/astraea)** | `Tree-sitter AST` + `SCIP CPG` + `LLVM SSA IR` + `DWARF` | **4-Layer Code Property Graph & AI Code Reviewer**<br>Unifies structural syntax, call graphs, compiler lowering, and binary disassembly to feed grounded context to AI coding agents. |
-| **[`EDocument_integration_extention`](https://github.com/DharshanOB/EDocument_integration_extention)** | `Frappe Framework` + `PEPPOL Network` + `UBL XML` | **Enterprise Peppol Access Point Provider**<br>Belgian and European compliant electronic invoicing pipeline with automated schema validation and direct network transmission. |
-| **[`campus`](https://github.com/DharshanOB/campus)** | `Frappe Education` + `ERPNext` + `Academic Layer` | **Higher-Education Management ERP**<br>Complete institutional operating layer for colleges and universities managing admissions, academics, and administration. |
-| **[`Amazon-connector`](https://github.com/DharshanOB/Amazon-connector)** | `Amazon SP-API` + `Frappe Sync Engine` + `Python` | **Real-Time E-Commerce Connector**<br>Automated inventory sync, order pipeline, and catalog reconciliation between Amazon marketplaces and ERPNext. |
-| **[`rewrite`](https://github.com/DharshanOB/rewrite)** | `TypeScript` + `Modular Architecture` + `High Perf` | **Modern Full-Stack Web Engine**<br>Lightweight, high-performance web tooling and application foundation. |
-
----
-
-### Advancements Unlocked
+### Legendary Drops // Signature Builds
 
 ```
 +-----------------------------------------------------------------------------------------+
-| [ADVANCEMENT UNLOCKED] Master of the Forge                                              |
-| Lowered high-level code through Tree-sitter, LLVM SSA intermediate representation,      |
-| and machine assembly with DWARF line alignment.                                         |
+| [ITEM: ASTRAEA]                                                          [RARITY: MYTHIC]
+| 4-layer code indexer & AI reviewer unifying Tree-sitter AST, cross-file call graphs,    |
+| LLVM SSA intermediate representation, and ELF/DWARF disassembly.                        |
+| Source: https://github.com/DharshanOB/astraea                                           |
 +-----------------------------------------------------------------------------------------+
-| [ADVANCEMENT UNLOCKED] The Peppol Highway                                               |
-| Built compliant European B2B e-invoicing pipelines connecting ERPNext to Peppol nodes.  |
+| [ITEM: PEPPOL EDOCUMENT]                                                   [RARITY: RARE]
+| European B2B e-invoicing access point integration for Frappe with compliant UBL XML.    |
+| Source: https://github.com/DharshanOB/EDocument_integration_extention                   |
 +-----------------------------------------------------------------------------------------+
-| [ADVANCEMENT UNLOCKED] Redstone Architect                                                |
-| Engineered custom applications and multi-channel connectors on the Frappe framework.     |
+| [ITEM: CAMPUS ERP]                                                     [RARITY: UNCOMMON]
+| Institutional operating layer built on Frappe Education and ERPNext.                    |
+| Source: https://github.com/DharshanOB/campus                                            |
++-----------------------------------------------------------------------------------------+
+| [ITEM: AMAZON CONNECTOR]                                               [RARITY: UNCOMMON]
+| Real-time SP-API order, inventory, and catalog sync pipeline for ERPNext.               |
+| Source: https://github.com/DharshanOB/Amazon-connector                                  |
 +-----------------------------------------------------------------------------------------+
 ```
 
 ---
 
-### World Telemetry // GitHub HUD
+### World Telemetry // HUD
 
 <div align="center">
 
@@ -115,45 +59,32 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/DharshanOB">
-        <img src="https://github-readme-stats.vercel.app/api?username=DharshanOB&bg_color=191b1d&title_color=55ff55&text_color=ffffff&icon_color=ffaa00&border_color=3f3f3f&show_icons=true" width="100%" alt="Minecraft HUD GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=DharshanOB&bg_color=191b1d&title_color=55ff55&text_color=ffffff&icon_color=ffaa00&border_color=3f3f3f&show_icons=true" width="100%" alt="Minecraft Stats" />
       </a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/DharshanOB">
-        <img src="https://streak-stats.demolab.com/?user=DharshanOB&background=191b1d&ring=55ff55&fire=ffaa00&currStreakLabel=55ff55&border=3f3f3f" width="100%" alt="Minecraft HUD Streak Stats" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <a href="https://github.com/DharshanOB">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DharshanOB&layout=compact&bg_color=191b1d&title_color=55ff55&text_color=ffffff&border_color=3f3f3f&langs_count=8" width="55%" alt="Top Languages" />
+        <img src="https://streak-stats.demolab.com/?user=DharshanOB&background=191b1d&ring=55ff55&fire=ffaa00&currStreakLabel=55ff55&border=3f3f3f" width="100%" alt="Minecraft Streak" />
       </a>
     </td>
   </tr>
 </table>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DharshanOB/DharshanOB/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DharshanOB/DharshanOB/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/DharshanOB/DharshanOB/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
+
 </div>
 
 ---
 
-### Contribution Grid Snake // Mob Trail
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DharshanOB/DharshanOB/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DharshanOB/DharshanOB/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Grid Snake" src="https://raw.githubusercontent.com/DharshanOB/DharshanOB/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
-
----
-
-### Campfire Rest Area // Safe Travels
+### Campfire // Rest Area
 
 <div align="center">
 
-<img src="assets/fireplace.gif" width="70%" alt="Cozy Fireplace" />
+<img src="assets/fireplace.gif" width="50%" alt="Cozy Fireplace" />
 
 <br><br>
 
@@ -163,9 +94,7 @@
  |   COORDINATES: India (Survival Realm)       |
  |   COMMUNICATION: quietrays@gmail.com        |
  |   STATUS: Sitting by the cozy fire          |
- |   BUILDING: Systems, Compilers & ERP Apps   |
   \___________________________________________/
-                     ||
                      ||
                      ||
 ```
@@ -180,10 +109,6 @@
   <a href="https://linkedin.com">
     <img src="https://img.shields.io/badge/NETWORK-LINKEDIN-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-</p>
-
-<p align="center">
-  <i>Crafted block by block with code and redstone. Take a seat by the fire.</i>
 </p>
 
 </div>
