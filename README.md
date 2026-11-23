@@ -71,16 +71,6 @@ Based in Salem, Tamil Nadu, India, I am a Software Engineer passionate about bui
 
 ---
 
-### Milestones and Experience
-
-| Period | Organization and Context | Role | Focus |
-| :--- | :--- | :--- | :--- |
-| **2026 - Present** | Agent Ecosystem | Creator of ProjectYolo | Autonomous agent engineering, computer vision perception, and desktop control engines. |
-| **2026** | Cloud Innovations | Skylabs Founder | High-performance cloud infrastructure suite built with TypeScript. |
-| **2025** | AI Research Lab | Lead Developer | Developed Active GraphRAG and NetGuard Pro live threat mitigation platform. |
-| **2024** | Core Systems | Software Engineer | Memory management and low-level systems engineering across Rust and Python repositories. |
-
----
 
 ### GitHub Telemetry
 
